@@ -2,9 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin: 1.5rem auto;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  height: 2rem;
+  width: 12rem;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+  border: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +26,7 @@
 }
 
 .main-container {
-  margin:2rem;
+  margin: 2rem;
   border: 5px solid orangered;
 }
 
@@ -26,8 +38,6 @@ h2 {
   color: skyblue;
   background-color: yellow;
 }
-
-
 
 #table {
   border: 1px solid blue;
